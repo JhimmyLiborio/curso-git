@@ -23,6 +23,8 @@ git-push origin master
 git-pull
 # Incorpora alterações de um repositório remoto  na ramificação atual.
 
+git push origin <<nome-da-branch>>
+# enviar uma branch para servidor remoto
 
 git branch
 # o comando git branch irá nos mostrar quais branches temos criadas em nosso reposítório
@@ -41,4 +43,6 @@ git checkout <<nome-da-branch>>
 # alterna a referência para outra branch
 
 
+git merge <<nome-da-branch>>
+# mescla alterações de uma branch a uma branch ativa, por exemplo, a branch master.
 
