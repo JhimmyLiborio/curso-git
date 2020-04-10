@@ -1,0 +1,27 @@
+git-init
+# cria um reposítorio Git vazio ou reinicializa um existente
+
+git-add
+# atualiza o índice usando o conteúdo atual encontrado na árvore de trabalho
+# o 'índice' contém uma captura instantânea do conteúdo da árvore de trabalho
+# os arquivos passam a ser rastreáveis
+
+git-commit
+# registra as alterações no reposítório
+# o novo commit é filho direto do HEAD, geralmente a ponta do branch,
+# e o brach é atualizado para apontar para ele.
+
+git-status
+# mostra o status da árvore de trabaho atual.
+
+git-push
+# atualiza as referências remotas
+
+git-push origin master
+# faz upload dos commits locais para o servidor remoto
+
+git-pull
+# Incorpora alterações de um repositório remoto  na ramificação atual.
+
+
+
