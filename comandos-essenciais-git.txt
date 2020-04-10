@@ -1,20 +1,20 @@
-git-init
+git init
 # cria um reposítorio Git vazio ou reinicializa um existente
 
-git-add
+git add
 # atualiza o índice usando o conteúdo atual encontrado na árvore de trabalho
 # o 'índice' contém uma captura instantânea do conteúdo da árvore de trabalho
 # os arquivos passam a ser rastreáveis
 
-git-commit
+git commit
 # registra as alterações no reposítório
 # o novo commit é filho direto do HEAD, geralmente a ponta do branch,
 # e o brach é atualizado para apontar para ele.
 
-git-status
+git status
 # mostra o status da árvore de trabaho atual.
 
-git-push
+git push
 # atualiza as referências remotas
 
 git-push origin master
@@ -22,6 +22,23 @@ git-push origin master
 
 git-pull
 # Incorpora alterações de um repositório remoto  na ramificação atual.
+
+
+git branch
+# o comando git branch irá nos mostrar quais branches temos criadas em nosso reposítório
+
+git branch <<nome-da-branch>>
+# cria uma nova Branch no repositório 'local', mas mantém a referência do origin
+# para a branch default no caso a 'master'
+
+git checkout -b <<nome-da-branch>> 
+# cria uma nova branch e já troca a referência do origin da branch 'master'  para a nova branch criada
+
+git branch -D <<nome-da-branch>>
+# exclui uma branch
+
+git checkout <<nome-da-branch>>
+# alterna a referência para outra branch
 
 
 
